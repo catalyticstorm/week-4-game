@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>diamonds</title>
+<link href="assets/styles/style.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<body>
+	<center>
+		<h1 class="headText">Diamonds In My Eyes</h1>
+		<h2>The Rules</h2>
+		<hr>
+	</center>
+	<p class="info">There are four gems below. They all have set values. You will not know the value until you click on it. Be careful, each time you do, the amount that gem is worth will be added to the total value of all the gems clicked. You can click a gem as many times as you like. Try to match the number randomly chosen by the computer. If you go over, you shall lose and be very sad and the computer will scoff at you and the world will never be the same, but I digress. Just try to match the randomly chosen number. You think you ready for this awesome game that has to do with gems? Oh, and I don't own the images, just putting that out there...</p>
+	<br>
+	<p class="info">Oh, I almost forgot to mention... If you win, the gem values will multiply themselves by a randomly chosen number... Can't make it too easy for you :) But, if you lose, the gem values reset themselves. In case they go too high and make the game unplayable.</p>
+	<div id="buttonContainer">
+		<center>
+			<div id="start">Show me the number, already! (Click this)</div>
+		</center>
+	</div>
+	<center>
+		<div id="gemContainer">
+			<div id="ruby"><img class="gem" src="assets/images/ruby.jpg" alt="RUBY"></div>
+			<div id="sapphire"><img class="gem" src="assets/images/sapphire.jpg" alt="SAPPHIRE"></div>
+			<div id="emerald"><img class="gem" src="assets/images/emerald.jpg" alt="EMERALD"></div>
+			<div id="diamond"><img class="gem" src="assets/images/diamondMC.jpg" alt="DIAMOND"></div>
+		</div>
+		<div id="newsOfTheWorld">
+			<div class="news" id="computersNumber"></div>
+			<p class="news">Score</p>
+			<div class="news" id="gemCounter"></div>
+			<div class="news" id="gameNews1"></div>
+			<p class="news">Clicked Gem Value:</p>
+			<div class="news" id="gameNews2"></div>
+			<p class="news">Wins:</p>
+			<div class="news" id="wins"></div>
+			<p class="news">Losses:</p>
+			<div class="news" id="loss"></div>
+		</div>
+	</center>
+	<script src="assets/script/diamondJS.js"></script>
+</body>
+</html>
